@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>For Olyvia 💗</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Pacifico&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== MUSIK ==================== -->
+    <audio id="music" loop>
+        <source src="assets/Good_Morning_to_All(chosic.com).mp3">
+    </audio>
+
+    <button id="musicBtn">♫</button>
+
+    <!-- ==================== ANIMASI BUNGA ==================== -->
+    <div id="petals"></div>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 1 : OPENING -->
+    <!-- ================================================= -->
+
+    <section class="page on" id="p1">
+
+        <div>
+
+            <small>A LITTLE SURPRISE FOR YOU</small>
+
+            <h1>
+                For You,
+                <br>
+                <span>Olyv</span> ♡
+            </h1>
+
+            <div class="rose">
+                🌹
+            </div>
+
+            <p>
+                Ada sesuatu spesial yang sengaja akuu buat untuk Olyv...
+            </p>
+
+            <button onclick="go(2)">
+                Buka Sekarang 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 2 : HAPPY BIRTHDAY -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p2">
+
+        <div>
+
+            <small>TODAY IS ALL ABOUT YOU</small>
+
+            <h1>
+                Happy Birthday,
+                <br>
+                <span>Olyv!</span> ♡
+            </h1>
+
+            <label>
+            </label>
+
+            <div class="emoji">
+                🎂
+            </div>
+
+            <p>
+                Hari ini harus penuh senyum, tawa,
+                dan hal-hal baik. ✨ tapi bukan hanya hari ini aja yaaa untuk harii seterusnyaa jugaa okeiii❤
+            </p>
+
+            <button onclick="go(3)">
+                Lanjut yuk 💕
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 3 : TIUP LILIN -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p3">
+
+        <div>
+
+            <small>
+                MAKE THIS MOMENT SPECIAL
+            </small>
+
+            <h2>
+                Yeyy! Saatnya...
+                <br>
+                <span>Tiup lilinnyaa</span> 🎂
+            </h2>
+
+            <p>
+                Klik tombolnya dan lihat apa yang terjadi...
+            </p>
+
+
+            <!-- KUE -->
+            <div class="cake">
+
+                <div class="candles">
+
+                    <i>
+                        <b></b>
+                    </i>
+
+                    <i>
+                        <b></b>
+                    </i>
+
+                    <i>
+                        <b></b>
+                    </i>
+
+                    <i>
+                        <b></b>
+                    </i>
+
+                    <i>
+                        <b></b>
+                    </i>
+
+                </div>
+
+
+                <div class="top">
+                    ✿ ♡ ✿ ♡ ✿
+                </div>
+
+
+                <div class="body"></div>
+
+                <div class="cream"></div>
+
+            </div>
+
+
+            <!-- TOMBOL TIUP LILIN -->
+            <button id="blow" onclick="blow()">
+                Tiup lilinnya 🕯️
+            </button>
+
+
+            <!-- MAKE A WISH -->
+            <div class="wish" id="wish">
+
+                <div class="heart">
+                    ♡
+                </div>
+
+                <small>
+                    ONE LITTLE MOMENT...
+                </small>
+
+                <h1>
+                    Make a wish,
+                    <br>
+                    <span> !</span> ✨
+                </h1>
+
+                <p>
+                    Pejamkan mata olyvv sebentar.
+                    <br>
+                    Buat satu harapan yang paling Olyv inginkan...
+                </p>
+
+                <button onclick="go(4)">
+                    Sudah punya harapan? 💗
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 4 : FOTO / KENANGAN -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p4">
+
+        <div class="wide">
+
+            <small>
+                SOME MEMORIES TO KEEP
+            </small>
+
+            <h2>
+                Kenangan ♡
+            </h2>
+
+            <p>
+                gapunya foto kita berduaa jadi aku suruh aja ai gabungin foto kita hihihi ✨
+            </p>
+
+
+            <div class="polas">
+
+                <!-- FOTO 1 -->
+                <figure>
+
+                    <div class="photo">
+
+                        <img
+                            src="assets/1.png"
+                            onerror="this.remove()"
+                        >
+
+                        <em>
+                            <br>
+                           
+                        </em>
+
+                    </div>
+
+                    <figcaption>
+                        Dulu Kita ♡
+                    </figcaption>
+
+                    <small>
+                        Satu foto, satu momen, dan satu kenangan yang 
+                        ternyata cukup untuk bikin kita tersenyum lagi
+                    </small>
+
+                </figure>
+
+
+                <!-- FOTO 2 -->
+                <figure>
+
+                    <div class="photo">
+
+                        <img
+                            src="assets/2.png"
+                            onerror="this.remove()"
+                        >
+
+                        <em>
+                            📷
+                            <br>
+                            Foto 2 nanti di sini
+                        </em>
+
+                    </div>
+
+                    <figcaption>
+                        Tetap Jadi Cerita ♡
+                    </figcaption>
+
+                    <small>
+                        Entah nanti kita akan sejauh apa, 
+                        semoga kenangan kecil seperti ini tetap punya tempat untuk kita ingat
+                    </small>
+
+                </figure>
+
+            </div>
+
+
+            <button onclick="go(5)">
+                Ada surat buat olyv nih 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 5 : SURAT -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p5">
+
+        <div>
+
+            <small>
+                SOMETHING FROM THE HEART
+            </small>
+
+            <h2>
+                Ada surat
+                <br>
+                <span>untuk olyvv lohh</span> 💌
+            </h2>
+
+            <p>
+                Klik amplopnya pelan-pelan yaa...
+            </p>
+
+
+            <!-- AMPLOP -->
+            <div
+                class="env"
+                id="env"
+                onclick="letter()"
+            >
+
+                <div class="paper">
+                    Untuk Olyv ♡
+                </div>
+
+                <div class="flap"></div>
+
+                <div class="wax">
+                    ♥
+                </div>
+
+            </div>
+
+
+            <p id="tap">
+                ✧ Klik amplopnya yaa ✧
+            </p>
+
+
+            <!-- ISI SURAT -->
+            <article id="letter">
+
+                <small>
+                    4 Agustus ♡
+                </small>
+
+                <h3>
+                    Hai Olyv! 💗
+                </h3>
+
+                <p>
+                    Selamat ulang tahun Olyv!
+                    Semoga di umur yang baru ini,
+                    Olyv makin bahagia, sehat selalu,
+                    dan dikelilingi banyak hal baik.
+                </p>
+
+                <p>
+                    Semoga semua yang Olyv semogakan,
+                    satu per satu bisa menjadi kenyataan.
+                    Jangan lupa menikmati setiap proses
+                    dan menghargai diri sendiri.
+                </p>
+
+                <p>
+                    Terima kasih sudah menjadi teman yang baik buatt febrii yaa luvv banyak banyak buat olyvv❤❤❤
+                    dan sudah menciptakan banyak cerita
+                    yang menyenangkan.
+                    Semoga senyum Olyv selalu punya
+                    banyak alasan untuk muncul.
+                    Maaf bangett ya olyv ngucapinnya baru sekarang, telat bangett udahh sebulan malahann maaf yaa beb😭🙏,
+                    tapi meskipun telat , doanya tetep sama kok lyv. Jangan lupa tetap jadi diri olyv yang baik dan hebat yaa. 
+                    Sekali lagi, happy birthday Olyv! 🎉💐 Semoga tahun ini jadi tahun yang jauh lebih indah buat olyv yaaa. 🤍
+                </p>
+
+                <p>
+                    Pokoknya,
+                    <i>stay happy</i>,
+                    stay awesome,
+                    dan jangan berhenti jadi olyvv
+                    yang aku kenal yaaa. ✨
+                </p>
+
+                <p class="sig">
+                    With lots of love,
+                    <br>
+
+                    <b>
+                        someone who cares about you ♡
+                    </b>
+                </p>
+
+            </article>
+
+
+            <button
+                id="lb"
+                class="hide"
+                onclick="go(6)"
+            >
+                Lanjut ke harapan ✨
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 6 : BIRTHDAY WISHES -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p6">
+
+        <div>
+
+            <small>
+                A FEW LITTLE WISHES
+            </small>
+
+            <h2>
+                Birthday
+                <span>Wishes</span> 🌷
+            </h2>
+
+
+            <div class="card">
+
+                <b id="wn">
+                    WISH #01
+                </b>
+
+                <div id="wi">
+                    🌸
+                </div>
+
+                <p id="wt"></p>
+
+
+                <nav>
+
+                    <button onclick="prev()">
+                        ‹
+                    </button>
+
+                    <span id="dots"></span>
+
+                    <button onclick="next()">
+                        ›
+                    </button>
+
+                </nav>
+
+            </div>
+
+
+            <button onclick="go(7)">
+                Tunggu... masih ada lagi 👀
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 7 : ONE LAST SURPRISE -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p7">
+
+        <div>
+
+            <small>
+                ONE LAST THING...
+            </small>
+
+            <h2>
+                Tungguu...
+                <br>
+
+                masih ada satu hal lagi
+                <span>buat olyv</span> 👀
+            </h2>
+
+
+            <div class="gift">
+                🎁
+            </div>
+
+
+            <button onclick="final()">
+                One Last Surprise 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================================= -->
+    <!-- HALAMAN 8 : FINAL -->
+    <!-- ================================================= -->
+
+    <section class="page" id="p8">
+
+        <div id="conf"></div>
+
+        <div>
+
+            <small>
+                THIS DAY IS YOURS
+            </small>
+
+            <h1>
+                Happy Birthday,
+                <br>
+                <span>Olyv!</span> 💗
+            </h1>
+
+
+            <div class="teddy">
+                🧸🌹
+            </div>
+
+
+            <p>
+                Semoga selalu bahagia hari ini
+                dan seterusnya. ✨
+                <br>
+
+                <b>
+                    You deserve all the best things
+                    in this world!
+                </b>
+            </p>
+
+
+            <div class="thank">
+                Terima kasih sudah buka
+                surprise ini yaa ♡
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
